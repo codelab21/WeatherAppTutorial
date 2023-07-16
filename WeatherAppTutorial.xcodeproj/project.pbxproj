@@ -11,6 +11,7 @@
 		E5E267382A64014100DFC1D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E267372A64014100DFC1D4 /* ContentView.swift */; };
 		E5E2673A2A64014200DFC1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E267392A64014200DFC1D4 /* Assets.xcassets */; };
 		E5E2673D2A64014200DFC1D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E2673C2A64014200DFC1D4 /* Preview Assets.xcassets */; };
+		E5E267452A64052700DFC1D4 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E267442A64052700DFC1D4 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E5E267372A64014100DFC1D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5E267392A64014200DFC1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E2673C2A64014200DFC1D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5E267442A64052700DFC1D4 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E5E267342A64014100DFC1D4 /* WeatherAppTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				E5E267432A64051700DFC1D4 /* ViewModel */,
 				E5E267352A64014100DFC1D4 /* WeatherAppTutorialApp.swift */,
 				E5E267372A64014100DFC1D4 /* ContentView.swift */,
 				E5E267392A64014200DFC1D4 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E5E2673C2A64014200DFC1D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5E267432A64051700DFC1D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E5E267442A64052700DFC1D4 /* WeatherData.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E267382A64014100DFC1D4 /* ContentView.swift in Sources */,
+				E5E267452A64052700DFC1D4 /* WeatherData.swift in Sources */,
 				E5E267362A64014100DFC1D4 /* WeatherAppTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +281,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherAppTutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current Weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide current Weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +312,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherAppTutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current Weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide current Weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
